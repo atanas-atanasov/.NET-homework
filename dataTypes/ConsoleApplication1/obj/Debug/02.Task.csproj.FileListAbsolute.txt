@@ -1,0 +1,6 @@
+D:\Soft-Intellect-homework\dataTypes\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Soft-Intellect-homework\dataTypes\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Soft-Intellect-homework\dataTypes\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Soft-Intellect-homework\dataTypes\ConsoleApplication1\obj\Debug\02.Task.csprojResolveAssemblyReference.cache
+D:\Soft-Intellect-homework\dataTypes\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Soft-Intellect-homework\dataTypes\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,6 @@
+D:\Soft-Intellect-homework\dataTypes\06.Tastk\bin\Debug\06.Tastk.exe.config
+D:\Soft-Intellect-homework\dataTypes\06.Tastk\bin\Debug\06.Tastk.exe
+D:\Soft-Intellect-homework\dataTypes\06.Tastk\bin\Debug\06.Tastk.pdb
+D:\Soft-Intellect-homework\dataTypes\06.Tastk\obj\Debug\06.Tastk.csprojResolveAssemblyReference.cache
+D:\Soft-Intellect-homework\dataTypes\06.Tastk\obj\Debug\06.Tastk.exe
+D:\Soft-Intellect-homework\dataTypes\06.Tastk\obj\Debug\06.Tastk.pdb

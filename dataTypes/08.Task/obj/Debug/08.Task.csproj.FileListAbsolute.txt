@@ -1,0 +1,5 @@
+D:\Soft-Intellect-homework\dataTypes\08.Task\bin\Debug\08.Task.exe.config
+D:\Soft-Intellect-homework\dataTypes\08.Task\bin\Debug\08.Task.exe
+D:\Soft-Intellect-homework\dataTypes\08.Task\bin\Debug\08.Task.pdb
+D:\Soft-Intellect-homework\dataTypes\08.Task\obj\Debug\08.Task.exe
+D:\Soft-Intellect-homework\dataTypes\08.Task\obj\Debug\08.Task.pdb
