@@ -7,8 +7,8 @@
     <ProjectGuid>{2DF31A16-9B55-4110-8796-A8AB9FC6576C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>dataTypes</RootNamespace>
-    <AssemblyName>dataTypes</AssemblyName>
+    <RootNamespace>_01.Task</RootNamespace>
+    <AssemblyName>01.Task</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

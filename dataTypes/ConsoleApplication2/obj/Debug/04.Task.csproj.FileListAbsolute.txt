@@ -3,3 +3,7 @@ D:\Soft-Intellect-homework\dataTypes\ConsoleApplication2\bin\Debug\ConsoleApplic
 D:\Soft-Intellect-homework\dataTypes\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
 D:\Soft-Intellect-homework\dataTypes\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
 D:\Soft-Intellect-homework\dataTypes\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication2\bin\Debug\04.Task.exe.config

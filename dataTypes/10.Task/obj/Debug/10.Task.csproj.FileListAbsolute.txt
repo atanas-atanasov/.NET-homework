@@ -4,3 +4,6 @@ D:\Soft-Intellect-homework\dataTypes\10.Task\bin\Debug\10.Task.pdb
 D:\Soft-Intellect-homework\dataTypes\10.Task\obj\Debug\10.Task.csprojResolveAssemblyReference.cache
 D:\Soft-Intellect-homework\dataTypes\10.Task\obj\Debug\10.Task.exe
 D:\Soft-Intellect-homework\dataTypes\10.Task\obj\Debug\10.Task.pdb
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\10.Task\bin\Debug\10.Task.exe.config
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\10.Task\obj\Debug\10.Task.exe
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\10.Task\obj\Debug\10.Task.pdb
