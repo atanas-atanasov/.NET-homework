@@ -1,0 +1,6 @@
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe.config
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication4\obj\Debug\03.Task.csprojResolveAssemblyReference.cache
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication4\obj\Debug\ConsoleApplication4.exe
+D:\Soft-Intellect-homework\.NET-homework\dataTypes\ConsoleApplication4\obj\Debug\ConsoleApplication4.pdb
