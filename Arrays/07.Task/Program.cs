@@ -27,14 +27,29 @@ namespace _07.Task
             {
                 if (n%2==1)                                 //dolu+lqvo
                 {
-                    for (int n1 = 0; n1 < size - n; n1++)             //dolu
+                    for (int n1 = 0; n1 < size - n; n1++)  //dolu
                     {
                         i = n1 + 1 + (n / 2);
                         j = size - (n / 2 + 1);
-
                         matrix[i, j] = n * size + i + size - j - 1 + ((size - 4) * 2 + 2 - 2 * (size - j - 1));
-
+                        i = n1 + 1;
+                        j = size - 1;
+                        matrix[i, j] = 1 + size+n1;
                     }
+
+                    for (int n1 = 0; n1 < size; n1++)
+                    {
+                        i = size-1-n/2;
+                        j = n1 - (n / 2+1);
+                        matrix[i, j] = n * size + i + size - j - 1;// +((size - 4) * 2 + 2 - 2 * (size - j - 1));
+                    }
+                    //for (int n1 = 0; n1 <= size; n1++)
+                    //{
+                    //    i = size -1- (n / 2);
+                    //    j = size-n1;
+                    //    matrix[i, j] = n * size + i + size - j - 1;
+
+                    //}
 
                     ////lqvo
                     //for (int n1 = 0; n1 < size; n1++)
@@ -44,13 +59,7 @@ namespace _07.Task
                     //    matrix[i, j] = n * size + i + size - j - 1 + ((size - 4) * 2 + 2 - 2 * (size - j - 1));
                     //}
                 }
-                if (n % 2 == 0)
-                {
-                    for (int n1 = 0; n1 < size; n1++)
-                    {
 
-                    }
-                }
                        // matrix[i, j] = size^ - size * j + i;  //(n * size) + i + size - j - 1;  
                     //    if (n==3)                                       //Този If - else го сложих, защото когато n=3 числата ми излизаха с 4 единици по-малки и не можах да разбера защо
                     //    {                                               //и само така успях да реша проблема.(важи за 4те if - else надолу)
@@ -77,13 +86,13 @@ namespace _07.Task
                            
                 
                 
-                if (n%2==0)
-                {
-                    for (int n1 = 0; n1 < size; n1++)
-                    {
+                //if (n%2==0)
+                //{
+                //    for (int n1 = 0; n1 < size; n1++)
+                //    {
                         
-                    }
-                }
+                //    }
+                //}
             }
 
 
