@@ -21,6 +21,10 @@ namespace _01.Task
                     writeToConsole(reader, text);
                 }
 
+                using (StreamWriter writer = new StreamWriter("ToWrite.txt"))
+                {
+                  WriteToFile(writer,text);
+                }
             }
             catch (System.IO.FileNotFoundException ex)
             {
@@ -30,6 +34,22 @@ namespace _01.Task
             {
                 Console.WriteLine(ex.Message);
             }
+            catch(NoTextException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private static void WriteToFile(StreamWriter writer, string text)
+        {
+            Console.WriteLine("Enter text to be written on file!");
+            text = Console.ReadLine();
+            if (String.IsNullOrEmpty(text))
+            {
+                throw new NoTextException("You wrote nothing!");
+            }
+            writer.WriteLine(text);
+
         }
 
         private static void writeToConsole(StreamReader reader, string text)
