@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TASK
+namespace test
 {
     class Program
     {
         static void Main(string[] args)
         {
-           Teacher teach = new Teacher();
-           teach.Bye();
+            char[] test;
+            test = new char[6];
+            
         }
     }
 }
