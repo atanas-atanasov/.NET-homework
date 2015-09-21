@@ -55,6 +55,7 @@ namespace HomeWork
                 StreamWriter writer = new StreamWriter("Entries.txt", true);
                 writer.WriteLine("{0}{1}{2}", textBox1.Text.PadRight(50, ' '), textBox2.Text.PadRight(50, ' '), textBox3.Text);
                 writer.Close();
+                label4.Text = "Registration successful!";
             }
 
             }
