@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
 
-namespace Task01
+namespace HomeWork
 {
     static class Program
     {
@@ -14,15 +13,6 @@ namespace Task01
         /// </summary>
         [STAThread]
         static void Main()
-        {
-
-            Thread t1 = new Thread(new ThreadStart(Job));
-            t1.Start();
-
-            
-        }
-
-        private static void Job()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
