@@ -39,21 +39,7 @@ namespace finalEXAM2
                     if (textBox1.Text == toPrint[0])
                     {
                         richTextBox1.Text += toPrint[0] + Environment.NewLine + toPrint[1] + Environment.NewLine + toPrint[2] +
-                             Environment.NewLine + Environment.NewLine;             
-                    }
-                    
-                    if (textBox2.Text == toPrint[0])
-                    {
-                        richTextBox1.Text += toPrint[0] + Environment.NewLine + toPrint[1] + Environment.NewLine + toPrint[2] +
                              Environment.NewLine + Environment.NewLine;
-                     
-                    }
-                    double min = double.Parse(textBox3.Text);
-                        double max = double.Parse(textBox4.Text);
-                    if (double.Parse(toPrint[2]) >= min && double.Parse(toPrint[2]) < max)
-                    {
-                        richTextBox1.Text += toPrint[0] + Environment.NewLine + toPrint[1] + Environment.NewLine + toPrint[2] +
-                             Environment.NewLine + Environment.NewLine;            
                     }
                     line = reader.ReadLine();
                 }
@@ -66,6 +52,44 @@ namespace finalEXAM2
             this.Hide();
             add.Show();
             add.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+            using (StreamReader reader = new StreamReader("DataBase.txt"))
+            {
+                string line = reader.ReadLine();
+                string[] toPrint = line.Split('|');
+                while (line != null)
+                {
+                    if (textBox2.Text == toPrint[1])
+                    {
+                        richTextBox1.Text += toPrint[0] + Environment.NewLine + toPrint[1] + Environment.NewLine + toPrint[2] +
+                             Environment.NewLine + Environment.NewLine;
+                    }
+                    line = reader.ReadLine();
+                }
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+            using (StreamReader reader = new StreamReader("DataBase.txt"))
+            {
+                string line = reader.ReadLine();
+                string[] toPrint = line.Split('|');
+                while (line != null)
+                {
+                    if (double.Parse(toPrint[2])>=double.Parse(textBox3.Text) && double.Parse(toPrint[2])<double.Parse(textBox4.Text))
+                    {
+                        richTextBox1.Text += toPrint[0] + Environment.NewLine + toPrint[1] + Environment.NewLine + toPrint[2] +
+                             Environment.NewLine + Environment.NewLine;
+                    }
+                    line = reader.ReadLine();
+                }
+            }
         }
     }
 }

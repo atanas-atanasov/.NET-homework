@@ -26,10 +26,17 @@ namespace finalEXAM2
             srch.Show();
             srch.Top = this.Top;
             srch.Left = this.Left;
-            using (StreamReader read= new StreamReader("DataBase.txt"))
+            try
             {
-                
+                using (StreamReader read = new StreamReader("DataBase.txt"))
+                {
+                }
             }
+            catch (Exception)
+            {
+               
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
