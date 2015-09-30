@@ -21,7 +21,6 @@ namespace finalEXAM2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Search srch = new Search();
             srch.Show();
             srch.Top = this.Top;
@@ -34,7 +33,7 @@ namespace finalEXAM2
             }
             catch (Exception)
             {
-               
+              
             }
 
         }
