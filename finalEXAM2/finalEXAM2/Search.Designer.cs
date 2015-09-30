@@ -190,7 +190,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Search";
             this.Text = "Search";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Search_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
